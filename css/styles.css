@@ -436,12 +436,12 @@ img {
   padding-right: 32px;
   padding-top: 40px;
   transform: translateY(420px);
-}
-.main-list-pic-item:hover .overlay,
-.main-list-pic-item:focus .overlay {
-  transform: translateY(0);
   transition: var(--trst);
   transition-property: transform;
+}
+.main-list-pic-link:hover .overlay,
+.main-list-pic-link:focus .overlay {
+  transform: translateY(0);
 }
 .description {
   padding: 32px 16px;
@@ -449,8 +449,8 @@ img {
   border-top: none;
   background-color: var(--white);
 }
-.main-list-pic-item:hover .description,
-.main-list-pic-item:focus .description {
+.main-list-pic-link:hover .description,
+.main-list-pic-link:focus .description {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: var(--white);
