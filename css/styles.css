@@ -108,11 +108,9 @@ img {
 .logo-header {
   color: var(--navy-blue);
 }
-
 .header .logo {
   margin-right: 76px;
 }
-
 .header-nav {
   margin-right: auto;
 }
@@ -183,6 +181,9 @@ img {
 .footer-text {
   color: var(--cloud);
   max-width: 264px;
+}
+.footer-text-icons {
+  margin-left: 120px;
 }
 .footer-text-icon {
   font-weight: 500;
