@@ -12,6 +12,7 @@
   --light-slate: #8e8f99;
   --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --dairy: #fcfcfc;
+  --green: #31d0aa;
   --trst: 250ms cubic-bezier(0.4, 0, 0.2, 1) ease;
 }
 h1,
@@ -201,6 +202,12 @@ img {
   width: 40px;
   height: 40px;
 }
+.footer-icons-item:hover,
+.footer-icons-item:focus {
+  background-color: var(--green);
+  transition: var(--trst);
+  transition-property: background-color;
+}
 
 /* home */
 .main-first {
@@ -334,6 +341,12 @@ img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+.person-icons-item:hover,
+.person-icons-item:focus {
+  background-color: var(--ocean);
+  transition: var(--trst);
+  transition-property: background-color;
 }
 .main-customers {
   padding: 120px 0;
