@@ -77,11 +77,10 @@ img {
 }
 
 .social-icons-link {
-  width: 40px;
-  height: 40px;
-  background-color: var(--iris);
-  border-radius: 50%;
   fill: var(--cloud);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* header and footer */
@@ -169,6 +168,10 @@ img {
   background-color: var(--navy-blue);
   padding: 100px 0;
 }
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+}
 .logo-footer {
   color: var(--cloud);
 }
@@ -183,6 +186,20 @@ img {
 .footer-text-icon {
   font-weight: 500;
   color: var(--white);
+  padding-bottom: 16px;
+}
+.footer-icons-list {
+  display: flex;
+  gap: 24px;
+}
+.footer-icons-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--iris);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 /* home */
@@ -301,14 +318,35 @@ img {
 }
 .main-team-text {
   color: var(--slate);
+  padding-bottom: 8px;
+}
+.person-icons-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.person-icons-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--iris);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 .main-customers {
   padding: 120px 0;
+}
+.main-customers-list {
+  display: flex;
+  gap: 24px;
 }
 .customers-link {
   display: flex;
   gap: 24px;
   justify-content: center;
+  align-items: center;
   width: 168px;
   height: 88px;
   border-radius: 4px;
@@ -414,14 +452,6 @@ img {
 }
 .main-list-pic-text {
   color: var(--slate);
-}
-.main-customers-list {
-  display: flex;
-  gap: 24px;
-}
-.social-icons-customers {
-  display: flex;
-  height: 88px;
 }
 
 /* modal window */
